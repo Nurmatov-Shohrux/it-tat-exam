@@ -114,6 +114,10 @@ button {
     margin-left: 80px;
 }
 
+.kurs-ruyxati span {
+    color: black;
+}
+
 .kurs-ruyxati a {
     display: flex;
     justify-content: flex-start;
