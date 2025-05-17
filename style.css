@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Core styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #F3F3F3;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/* Main header section */
+
+.main-seciton {
+    width: 100%;
+    height: 107px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px -15px;
+}
+
+.main-header-section {
+    height: 107px;
+}
+
+.main-header-section-logo img {
+    width: 100px;
+    height: 60px;
+}
+
+.main-header-section-nav-bar {
+    width: 466px;
+}
+
+.main-header-section-nav-bar li,a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(33, 33, 34);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.main-header-section-nav-bar a:hover {
+    color: rgb(89, 109, 255);
+}
+
+.main-header-number {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(61, 81, 227);
+    text-align: left;
+}
+
+.main-header-number i {
+    font-size: 20px;
+}
+
+.main-header-section-button button {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    width: 204px;
+    height: 55px;
+    background-color: rgb(61, 81, 227);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.main-header-section-button button:hover {
+    border: 1px solid rgb(61, 81, 227);
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 81, 227);
+}
+
+/* End main header section */
+
+/* intro section */
+
+.intro-section {
+    width: 100%;
+    padding-bottom: 88px;
+}
+
+.kurs-ruyxati {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.kurs-ruyxati a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.kurs-ruyxati i {
+    font-size: 30px;
+    color: rgb(61, 81, 227);
+}
+
+.intro-section-body {
+    width: 1280px;
+    height: 668px;
+    margin-top: 46.5px;
+    margin-left: 111px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.intro-section-body-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.intro-section-body-descption-title {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+    padding-top: 38.5px;
+}
+
+.intro-section-body-descption p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(30, 30, 30);
+}
+
+.intro-section-body-descption-mini {
+    margin-top: 15px;
+}
+
+.intro-section-body-descption-mini img {
+    width: 98px;
+    height: 46px;
+    padding-right: 10px;
+}
+
+.intro-section-body-descption-mini p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(61, 81, 227);
+}
+.intro-section-body-descption-time {
+    margin-right: 175px;
+}
+
+.intro-section-body-descption-time h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(61, 81, 227);
+    padding-top: 34px;
+}
+
+.bepul-talim {
+    margin-top: 10px;
+    margin-left: 640px;
+    margin-right: 538px;
+    background-color: #596dff;
+    border-radius: 5px;
+}
+
+.bepul-talim p {
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.intro-section-body-descption-button {
+    margin-top: 27px;
+}
+
+.intro-section-body-descption-button button {
+    width: 272px;
+    height: 55px;
+    background-color: rgb(61, 81, 227);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.intro-section-body-descption-button button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 81, 227);
+    border: 1px solid rgb(61, 81, 227);
+}
+
+.intro-section-body-descption-button-price {
+    margin-right: 100px;
+}
+
+.intro-section-body-descption-button-price span {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.intro-section-body-descption-button-price h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color:rgb(61, 81, 227);
+}
+
+.intro-section-body-descption-button-price h1 span {
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(61, 81, 227);
+}
+
+/* End intro section */
+
+/* Registration seciton */
+
+.registration-section {
+    width: 100%;
+    height: 670px;
+    background-color: rgb(61, 81, 227);
+    position: relative;
+}
+
+.reg-sec-img1 img {
+    margin-top: 155px;
+    margin-left: 86px;
+}
+
+.reg-sec-img2 {
+    position: absolute;
+    left: 327px;
+    bottom: 104px;
+}
+
+.reg-part {
+    width: 677px;
+    height: 470px;
+    position: absolute;
+    top: 100px;
+    left: 673px;
+    background-color: #6e7dea;
+    border-radius: 35px;
+}
+
+.reg-part h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding-top: 48px;
+    padding-left: 59px;
+    padding-bottom: 40px;
+}
+
+.reg-part input {
+    margin-left: 33px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+    width: 610px;
+    height: 71px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.reg-part button {
+    width: 610px;
+    height: 74px;
+    margin-left: 33px;
+    margin-bottom: 31px;
+    background-color: rgb(61, 81, 227);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.reg-part button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 81, 227);
+    border: 1px solid rgb(61, 81, 227);
+}
+
+/* End reg section */
+
+/* Tools section */
+
+.tools-section {
+    width: 100%;
+    height: 500px;
+    background-color: #f6f6f6;
+}
+
+
+.tools-section h1 {
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+}
+
+.tools-section-row-1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tools-section-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tools-section-row-1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.html-img {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 48px;
+    border: 1px solid rgb(61, 81, 227);
+}
+
+/* End tools section */
+
+/* Ad section */
+
+.ad-section {
+    width: 100%;
+    height: 564px;
+    background-color: rgb(61, 81, 227);
+}
+
+.ad-section-title {
+    padding-top: 87px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ad-section-banner {
+    margin-top: 69px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 207px;
+}
+
+.ad-section-ban {
+    margin-left: 25px;
+    width: 500px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ad-section-ban {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(61, 81, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-section-ban p {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(61, 81, 227);
+}
+
+.ad-section-rabota {
+    margin-top: 50px;
+    margin-left: 174px;
+    width: 1191px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ad-section-rabota-1 {
+    width: 350px;
+    margin-right: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    gap: 5px;
+}
+
+/* End ad section */
+
+/* Salary statistics */
+
+.salary-statistics {
+    width: 100%;
+    height: 800px;
+    background-color: #f6f6f6;
+}
+
+.salary-statistics-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+}
+
+.salary-statistics-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.salary-statistics-card-1 {
+    width: 520px;
+    height: 530px;
+    margin-top: 34px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 81, 227);
+    position: relative;
+    text-align: center;
+}
+
+.salary-statistics-bar-grey {
+    position: absolute;
+    top: 156px;
+    left: 20px;
+    border-radius: 17px;
+    width: 159px;
+    height: 341px;
+    background-color: rgba(210, 183, 255, 0.15);
+    padding-top: 14px;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+}
+
+.salary-statistics-bar-blue {
+    position: absolute;
+    top: 207px;
+    left: 20px;
+    width: 159px;
+    height: 290px;
+    background-color: rgb(61, 81, 227);
+    color: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding-top: 39px;
+    line-height: 26px;
+}
+
+.salary-statistics-bar-grey-2 {
+    position: absolute;
+    top: 252px;
+    left: 184px;
+    border-radius: 17px;
+    width: 159px;
+    height: 245px;
+    background-color: rgba(210, 183, 255, 0.15);
+    padding-top: 14px;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+}
+
+.salary-statistics-bar-blue-2 {
+    position: absolute;
+    top: 307px;
+    left: 183.94px;
+    width: 159px;
+    height: 190px;
+    background-color: rgb(89, 109, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding-top: 39px;
+    line-height: 26px;
+}
+
+.salary-statistics-bar-grey-3 {
+    position: absolute;
+    top: 325px;
+    left: 344px;
+    border-radius: 17px;
+    width: 159px;
+    height: 173px;
+    background-color: rgba(210, 183, 255, 0.15);
+    padding-top: 14px;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(12, 17, 135);
+}
+
+.salary-statistics-bar-blue-3 {
+    position: absolute;
+    top: 375px;
+    left: 344px;
+    width: 159px;
+    height: 122px;
+    background-color: rgb(12, 17, 135);
+    color: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding-top: 39px;
+    line-height: 26px;
+}
+
+/* Footer section */
+
+.footer-section {
+    width: 100%;
+    height: 487px;
+    background-color: rgb(61, 81, 227);
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.logo-img-ittat {
+    width: 230px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    
+}
+
+.logo-img-ittat img {
+    width: 230px;
+    height: 190px;
+    padding-bottom: 20px;
+}
+
+.kurs-font {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.ul-font li,a {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+.aloqa i {
+    padding-right: 5px;
+    padding-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
